@@ -1,0 +1,192 @@
+body {
+  background-image: url("../images/fondo.png");
+}
+
+nav {
+  background-color: white;
+  margin-top: -33px;
+  height: 80px;
+}
+
+.yo {
+  height: 200px;
+  width: 200px;
+  margin-top: 50px;
+  margin-left: 50px;
+}
+
+.parent {
+  position: relative;
+  width: 100px;
+}
+
+.child {
+  opacity: 0.9;
+  position: absolute;
+  left: 50px;
+  bottom: 30px;
+  width: 200px;
+  height: 50px;
+  background-color: cadetblue;
+  text-align: center;
+}
+
+.parent2 {
+  position: relative;
+  float: left;
+  left: 35%;
+  bottom: 255px;
+  width: 250px;
+}
+
+.child2 {
+  opacity: 0.9;
+  position: absolute;
+  left: 50px;
+  bottom: 30px;
+  width: 200px;
+  height: 50px;
+  background-color: cadetblue;
+  text-align: center;
+  float: left;
+}
+
+.parent3 {
+  position: relative;
+  float: left;
+  right: 28%;
+  bottom: 0px;
+  width: 250px;
+}
+
+.child3 {
+  opacity: 0.9;
+  position: absolute;
+  left: 50px;
+  bottom: 30px;
+  width: 200px;
+  height: 50px;
+  background-color: cadetblue;
+  text-align: center;
+  float: left;
+}
+
+.parent4 {
+  position: relative;
+  float: left;
+  right: 183px;
+  bottom: 0px;
+  width: 250px;
+}
+
+.child4 {
+  opacity: 0.9;
+  position: absolute;
+  left: 50px;
+  bottom: 30px;
+  width: 200px;
+  height: 50px;
+  background-color: cadetblue;
+  text-align: center;
+  float: left;
+}
+
+.parent5 {
+  position: relative;
+  float: left;
+  right: 0px;
+  bottom: 0px;
+  width: 250px;
+}
+
+.child5 {
+  opacity: 0.9;
+  position: absolute;
+  left: 50px;
+  bottom: 30px;
+  width: 200px;
+  height: 50px;
+  background-color: cadetblue;
+  text-align: center;
+  float: left;
+}
+
+.name {
+    padding-top: 20px;
+    font-family: georgia;
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    background-color: #4aaaa5;
+    width: 250px;
+    height: 60px;
+    margin-left: 300px;
+}
+
+.links {
+  font-family: "Times New Roman", Times, serif;
+  color: gray;
+  text-decoration: none;
+  border-right: 2px solid white;
+  padding: 10px;
+  font-size: 16px;
+  float: left;
+  position: relative;
+  top: -90px;
+  left: 64%;
+  margin: 10px;
+}
+
+.links:hover {
+  color: #4aaaa5;
+}
+
+.textaboutme {
+  top: 12px;
+  color: #4aaaa5;
+  padding: 10px;
+  position: relative;
+  left: 50px;
+}
+
+section {
+  margin-top: 50px;
+  margin-left: 300px;
+  width: 60%;
+  height: 860px;
+  background-color: white;
+}
+
+.paragraphme {
+  font-family: Arial, Helvetica, sans-serif;
+  color: gray;
+  font-size: 18px;
+  position: relative;
+  top: 20px;
+  width: 500px;
+  right: 100px;
+  float: right;
+}
+
+hr {
+  background-color: lightgray;
+  height: 3px;
+  width: 800px;
+  color: gray;
+  border: none;
+}
+
+footer {
+  position: sticky;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  bottom: 0;
+  width: 100%;
+  background-color: gray;
+  height: 60px;
+  text-align: center;
+  border-top: 8px solid #4aaaa5;
+  
+}
