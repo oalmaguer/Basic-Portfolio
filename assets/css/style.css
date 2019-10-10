@@ -1,0 +1,101 @@
+
+body {
+    background-image: url("../images/fondo.png");
+}
+
+nav {
+    background-color: white;
+    margin-top: -33px;
+    height: 80px;
+    
+}
+
+.name {
+   
+    font-family: georgia;
+    text-align: center;
+    color: white;
+    font-size: 40px;
+    background-color: #4aaaa5;
+    width: 250px;
+    height: 80px;
+    margin-left: 300px;
+}
+
+.links {
+    font-family: 'Times New Roman', Times, serif;
+    color: gray;
+    text-decoration: none;
+    border-right: 2px solid white;
+    padding: 10px;
+    font-size: 16px;
+    float: left;
+    position: relative;
+    top: -100px;
+    left: 64%;
+    margin: 10px;
+}
+
+.links:hover{
+    color: #4aaaa5;
+}
+
+img{
+    border: 5px solid gray;
+    position: relative;
+    top: 30px;
+    left: 50px;
+    width: 180px;  
+    height: 200px;
+   
+}
+
+.textaboutme {
+    top: 12px;
+    color: #4aaaa5;
+    padding: 10px;
+    position: relative;
+    left: 50px;
+}
+
+section {
+    margin-top: 50px;
+    margin-left: 300px;
+    width: 60%;
+    height: 380px;
+    background-color: white;
+}
+
+.paragraphme {
+    font-family: Arial, Helvetica, sans-serif;
+    color: gray;
+    font-size: 18px;
+    position: relative;
+    top: 20px;
+    width: 500px;
+    right: 100px;
+    float: right;
+}
+
+hr {
+    background-color: lightgray;
+    height: 3px;  
+    width: 800px;
+    color: gray;
+    border: none;
+}
+
+footer {
+   display: flex;
+    align-items: center; 
+    justify-content: center;
+    color: white;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-color: gray;
+    height: 60px;
+    text-align: center;
+    border-top: 8px solid #4aaaa5;
+    flex-shrink: 0;
+}
