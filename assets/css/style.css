@@ -1,6 +1,7 @@
 
 body {
     background-image: url("../images/fondo.png");
+    
 }
 
 
@@ -9,6 +10,7 @@ nav {
     background-color: white;
     margin-top: -33px;
     height: 80px;
+    width: 100%;
     
 }
 
@@ -47,9 +49,12 @@ img{
     position: relative;
     top: 30px;
     left: 50px;
-    width: 120px;  
-    height: 140px;
-   
+    width: 160px;  
+    height: 180px;
+}
+
+img:hover {
+    border: 5px solid cadetblue;
 }
 
 .textaboutme {
@@ -89,7 +94,7 @@ section {
     color: gray;
     font-size: 18px;
     position: relative;
-    top: 10px;
+    top: -30px;
     width: 550px;
     right: 100px;
     height: 10px;
@@ -104,12 +109,13 @@ section {
     color: gray;
     font-size: 18px;
     position: relative;
-    top: 10px;
+    top: -25px;
     width: 550px;
     right: 100px;
     height: 10px;
     float: right;
     margin-top: -10px;
+    
 }
 
 hr {
@@ -120,17 +126,20 @@ hr {
     border: none;
 }
 
-footer {
-   display: flex;
+.footer2 {
+    
+    display: flex;
+    top: 150px;
     align-items: center; 
     justify-content: center;
     color: white;
-    position: absolute;
+    position: relative;
     bottom: 0;
     width: 100%;
     background-color: gray;
     height: 60px;
     text-align: center;
     border-top: 8px solid #4aaaa5;
-    flex-shrink: 0;
+    
 }
+

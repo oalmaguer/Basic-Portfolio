@@ -178,11 +178,12 @@ hr {
 
 footer {
   position: sticky;
+  
   display: flex;
   align-items: center;
   justify-content: center;
   color: white;
-  bottom: 0;
+  bottom: 0px;
   width: 100%;
   background-color: gray;
   height: 60px;
